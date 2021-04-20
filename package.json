@@ -2,9 +2,12 @@
   "name": "react-rut-formatter",
   "version": "0.1.0",
   "description": "Un custom hook para React que facilita el trabajo con números RUN/RUT chilenos",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "prepublish": "tsc",
+    "prepare": "tsc",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
     "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
