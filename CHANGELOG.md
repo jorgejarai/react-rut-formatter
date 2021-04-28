@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.1] - 2021-04-27
+
+### Corregido
+
+- Problema de formato en `rut.raw` cuando RUT está vacío
+
 ## [0.2.0] - 2021-04-20
 
 ### Añadido
