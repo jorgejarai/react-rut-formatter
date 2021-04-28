@@ -21,15 +21,20 @@ export const useRut = () => {
   const updateRut = (rut: string) => {
     setRut(removeSeparators(rut));
   };
+
+  const rutWithoutDv = formattedRut?.slice(0, -1).replace(/\./g, "");
   const dv = formattedRut.charAt(formattedRut.length - 1);
-  const rutWithoutDv = rut?.slice(0, -1);
-  const isValid = dv === calculateDv(parseInt(rutWithoutDv ?? ""));
+
+  const isValid =
+    rutWithoutDv !== "" &&
+    rutWithoutDv !== "0-" &&
+    dv === calculateDv(parseInt(rutWithoutDv));
 
   return {
     updateRut,
     rut: {
-      formatted: formattedRut,
-      raw: `${rutWithoutDv}-${dv}`,
+      formatted: formattedRut !== "0-0" ? formattedRut : "",
+      raw: formattedRut !== "0-0" ? `${rutWithoutDv}${dv}` : "",
     },
     isValid,
   };
