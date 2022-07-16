@@ -1,10 +1,26 @@
 # `react-rut-formatter`
 
-Este es un _custom hook_ para React que facilita el trabajo con números de RUT/RUN (Rol Único Tributario y Rol Único Nacional, respectivamente), utilizados en Chile para propósitos de identidad y fines tributarios.
+Este es un _custom hook_ para React que facilita el trabajo con números de RUT/RUN (Rol Único Tributario y Rol Único Nacional, respectivamente), utilizados en Chile para propósitos de identidad o tributarios.
 
 Implementa el _hook_ `useRut`, que permite que un cuadro de texto pueda recibir un RUT o RUN, darle formato (XX.XXX.XXX-X) a medida que se escribe y verificar si este es válido.
 
-Es un trabajo en progreso de momento, pero que ya está publicado en [NPM](https://www.npmjs.com/package/react-rut-formatter).
+## Cómo instalar
+
+Para instalar `react-rut-formatter`, basta con agregar el paquete usando su administrador de paquetes de preferencia:
+
+### NPM
+
+```console
+$ npm install react-rut-formatter
+```
+
+### Yarn
+
+```console
+$ yarn add react-rut-formatter
+```
+
+Los test incorporados pueden ejecutarse con `yarn test` o `npm run test`.
 
 ## Ejemplo
 
