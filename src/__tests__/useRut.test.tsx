@@ -1,6 +1,6 @@
 import { renderHook, act } from "@testing-library/react-hooks";
 
-import { useRut } from "./useRut";
+import { useRut } from "../useRut";
 
 it("properly receives and formats a given RUT number", () => {
   const { result } = renderHook(() => useRut());

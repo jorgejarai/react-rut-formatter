@@ -1,4 +1,4 @@
-import { calculateDv, prettifyRut, removeSeparators } from './rutUtils';
+import { calculateDv, prettifyRut, removeSeparators } from '../rutUtils';
 
 describe('removeSeparators', () => {
   it('removes separators from a RUT number', () => {
