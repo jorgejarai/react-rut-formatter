@@ -1,6 +1,6 @@
 {
   "name": "react-rut-formatter",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Un custom hook para React que facilita el trabajo con números RUN/RUT chilenos",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,6 +24,7 @@
     "email": "jorgejarainostroza+dev@gmail.com",
     "url": "https://www.jorgejarai.xyz"
   },
+  "repository": "github:jorgejarai/react-rut-formatter",
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",

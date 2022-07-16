@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.2] - 2022-07-15
+
+### Añadido
+
+- Instrucciones de instalación en README
+
+### Corregido
+
+- Detalles de formato
+- Ubicación de los test en una carpeta propia
+
 ## [0.2.1] - 2021-04-27
 
 ### Corregido
