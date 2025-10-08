@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.0] - 2024-10-08
+
+### Corregido
+
+- Actualización de dependencias
+- Tests adaptados a la nueva versión de React Testing Library
+- Configuración de Jest adaptada a la nueva versión
+- Removido flag deprecado en `tsconfig.json`
+
 ## [0.2.2] - 2022-07-15
 
 ### Añadido
